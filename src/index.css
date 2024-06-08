@@ -49,3 +49,169 @@ code {
 .joyful-surprise-bg {
   min-height: 100vh;
 }
+
+/* authHeader */
+.authHeader{
+  background-color: #3DC2EE;
+  padding: 10px 0px 20px 0px;
+}
+.authHeader .logoAuth a{
+  display: inline-block;
+}
+.authHeader .logoAuth img{
+  height: 100px;
+}
+.authWrapper{
+  padding: 50px 0px;
+  min-height: calc(100vh - 130px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.authInner{
+  background-color: #fff;
+  min-height: 300px;
+  padding: 30px 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.formBoAuth{}
+.formBoAuth .topInfo{}
+.formBoAuth .topInfo h4{
+  margin: 0;
+  font-weight: 600;
+  font-size: 30px;
+  color: rgba(255, 0, 0, 0.952);
+}
+.formBoAuth .topInfo p{
+  margin: 0;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.formBoAuth .topInfo p a{
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-block;
+  margin-left: 4px;
+}
+.mainFormInnerAuth{
+  margin-top: 10px;
+}
+.mainFormInnerAuth .form-group{
+  margin-bottom: 10px;
+}
+.mainFormInnerAuth .form-group .form-control{
+  height: 45px;
+  border-radius: 10px;
+  padding: 0px 15px;
+  border: 1px solid #000;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000;
+}
+.mainFormInnerAuth .form-group label{
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+
+.mainFormInnerAuth .checkbox label{
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000d7;
+  padding-left: 35px;
+}
+.mainFormInnerAuth .checkbox input{
+  height: 20px;
+  width: 20px;
+  margin-left: -35px;
+}
+.mainFormInnerAuth .form-group .form-control:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+.mainFormInnerAuth .forgotPassword a{
+  font-weight: 600;
+  font-size: 15px;
+  color: gray;
+}
+.mainFormInnerAuth .forgotPassword a:hover{
+  color: #3DC2EE;
+}
+
+.mainFormInnerAuth button{
+  display: block;
+  width: 100%;
+  background-color: #3DC2EE;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  height: 50px;
+  color: #fff;
+}
+.mainFormInnerAuth button:hover{
+  opacity: 0.7;
+}
+.mainFormInnerAuth button:focus{
+  background-color: #3DC2EE;
+}
+.mainFormInnerAuth button:active{
+  background-color: #3DC2EE;
+  color: #fff;
+}
+.mainFormInnerAuth button:focus-visible{
+  background-color: #3DC2EE;
+  color: #fff;
+}
+
+.bottomAuth{
+  margin-top: 20px;
+}
+.bottomAuth h5{
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  color: #000000b4;
+}
+.bottomAuth h5::before{
+  position: absolute;
+  height: 1px;
+  width: 42%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  display: inline-block;
+  content: "";
+  background-color: #000;
+}
+.bottomAuth h5::after{
+  position: absolute;
+  height: 1px;
+  width: 42%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0;
+  display: inline-block;
+  content: "";
+  background-color: #000;
+}
+.extraSignInOptions{
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+}
+.extraSignInOptions button{
+  margin: 0px 50px;
+}
+.offerPlaceAuth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
