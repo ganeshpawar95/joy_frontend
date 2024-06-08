@@ -48,20 +48,24 @@ export default function HeaderComponents() {
                   <span class="icon-bar"></span> <span class="icon-bar"></span>{" "}
                   <span class="icon-bar"></span>{" "}
                 </button>
-                <a class="navbar-brand" href="index.htm">
-                  <img src="assets/web/img/js-logo-brand.png" class="logo" />
+                <a class="navbar-brand" href="/">
+                  <img src="/assets/web/img/js-logo-brand.png" class="logo" />
                 </a>{" "}
               </div>
               <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right" id="urls">
                   <li>
-                    <a href="index.htm">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="all-products.html">Products</a>
+                    <a href="/product">Products</a>
                   </li>
                   <li>
                     <a href="find-your-star.html">Find Your Star</a>
+                  </li>
+
+                  <li>
+                    <a href="/login">Login</a>
                   </li>
                   {/* <!-- <li><a href="#" class="woo"><i class="fa fa-user-circle-o"></i> My Account</a></li>
 					  <li><a href="#" class="woo cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</a></li> --> */}

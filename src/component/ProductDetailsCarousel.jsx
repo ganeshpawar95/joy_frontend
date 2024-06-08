@@ -6,43 +6,43 @@ export default function ProductsDetailsCarousel() {
           <div className="carousel-inner">
             <div className="item">
               <img
-                src="assets/uploads/product/1704864930_2628.jpg"
+                src="/assets/uploads/product/1704864930_2628.jpg"
                 alt="Los Angeles"
               />
             </div>
             <div className="item">
               <img
-                src="assets/uploads/product/1704866797_8669.jpg"
+                src="/assets/uploads/product/1704866797_8669.jpg"
                 alt="Los Angeles"
               />
             </div>
             <div className="item">
               <img
-                src="assets/uploads/product/1643283113_4366.jpg"
+                src="/assets/uploads/product/1643283113_4366.jpg"
                 alt="Los Angeles"
               />
             </div>
             <div className="item active left">
               <img
-                src="assets/uploads/product/1643283113_9492.jpg"
+                src="/assets/uploads/product/1643283113_9492.jpg"
                 alt="Los Angeles"
               />
             </div>
             <div className="item next left">
               <img
-                src="assets/uploads/product/1643283113_9574.jpg"
+                src="/assets/uploads/product/1643283113_9574.jpg"
                 alt="Los Angeles"
               />
             </div>
             <div className="item">
               <img
-                src="assets/uploads/product/1643283113_6760.jpg"
+                src="/assets/uploads/product/1643283113_6760.jpg"
                 alt="Los Angeles"
               />
             </div>
             <div className="item">
               <img
-                src="assets/uploads/product/1643283113_6816.jpg"
+                src="/assets/uploads/product/1643283113_6816.jpg"
                 alt="Los Angeles"
               />
             </div>
@@ -70,49 +70,49 @@ export default function ProductsDetailsCarousel() {
           <p className="exzoom_nav_inner">
             <span className="current">
               <img
-                src="../assets/uploads/product/1704864930_2628.jpg"
+                src="/assets/uploads/product/1704864930_2628.jpg"
                 width="60"
                 height="60"
               />
             </span>
             <span>
               <img
-                src="assets/uploads/product/1704866797_8669.jpg"
+                src="/assets/uploads/product/1704866797_8669.jpg"
                 width="60"
                 height="60"
               />
             </span>
             <span>
               <img
-                src="assets/uploads/product/1643283113_4366.jpg"
+                src="/assets/uploads/product/1643283113_4366.jpg"
                 height="60"
                 style={{ left: "6px" }}
               />
             </span>
             <span>
               <img
-                src="assets/uploads/product/1643283113_9492.jpg"
+                src="/assets/uploads/product/1643283113_9492.jpg"
                 height="60"
                 style={{ left: "6px" }}
               />
             </span>
             <span>
               <img
-                src="assets/uploads/product/1643283113_9574.jpg"
+                src="/assets/uploads/product/1643283113_9574.jpg"
                 height="60"
                 style={{ left: "6px" }}
               />
             </span>
             <span>
               <img
-                src="assets/uploads/product/1643283113_6760.jpg"
+                src="/assets/uploads/product/1643283113_6760.jpg"
                 height="60"
                 style={{ left: "6px" }}
               />
             </span>
             <span>
               <img
-                src="assets/uploads/product/1643283113_6816.jpg"
+                src="/assets/uploads/product/1643283113_6816.jpg"
                 height="60"
                 style={{ left: "6px" }}
               />
@@ -124,43 +124,43 @@ export default function ProductsDetailsCarousel() {
             <ul className="exzoom_img_ul">
               <li>
                 <img
-                  src="assets/uploads/product/1704864930_2628.jpg"
+                  src="/assets/uploads/product/1704864930_2628.jpg"
                   style={{ marginTop: "0px", width: "530px" }}
                 />
               </li>
               <li>
                 <img
-                  src="assets/uploads/product/1704866797_8669.jpg"
+                  src="/assets/uploads/product/1704866797_8669.jpg"
                   style={{ marginTop: "0px", width: "530px" }}
                 />
               </li>
               <li>
                 <img
-                  src="assets/uploads/product/1643283113_4366.jpg"
+                  src="/assets/uploads/product/1643283113_4366.jpg"
                   style={{ marginTop: "0px", width: "424px" }}
                 />
               </li>
               <li>
                 <img
-                  src="assets/uploads/product/1643283113_9492.jpg"
+                  src="/assets/uploads/product/1643283113_9492.jpg"
                   style={{ marginTop: "0px", width: "424px" }}
                 />
               </li>
               <li>
                 <img
-                  src="assets/uploads/product/1643283113_9574.jpg"
+                  src="/assets/uploads/product/1643283113_9574.jpg"
                   style={{ marginTop: "0px", width: "424px" }}
                 />
               </li>
               <li>
                 <img
-                  src="assets/uploads/product/1643283113_6760.jpg"
+                  src="/assets/uploads/product/1643283113_6760.jpg"
                   style={{ marginTop: "0px", width: "424px" }}
                 />
               </li>
               <li>
                 <img
-                  src="assets/uploads/product/1643283113_6816.jpg"
+                  src="/assets/uploads/product/1643283113_6816.jpg"
                   style={{ marginTop: "0px", width: "424px" }}
                 />
               </li>
@@ -189,7 +189,7 @@ export default function ProductsDetailsCarousel() {
           >
             <img
               className="exzoom_preview_img"
-              src="assets/uploads/product/1704864930_2628.jpg"
+              src="/assets/uploads/product/1704864930_2628.jpg"
               style={{
                 width: "1060px",
                 height: "1060px",
@@ -202,16 +202,16 @@ export default function ProductsDetailsCarousel() {
       </div>
       <ul className="secure-img">
         <li>
-          <img src="assets/secure/checkout.png" />
+          <img src="/assets/secure/checkout.png" />
         </li>
         <li>
-          <img src="assets/secure/24x7.png" />
+          <img src="/assets/secure/24x7.png" />
         </li>
         <li>
-          <img src="assets/secure/Satisfaction.jpg" />
+          <img src="/assets/secure/Satisfaction.jpg" />
         </li>
         <li>
-          <img src="assets/secure/Validity.jpg" />
+          <img src="/assets/secure/Validity.jpg" />
         </li>
       </ul>
     </div>

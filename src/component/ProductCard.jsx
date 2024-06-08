@@ -5,7 +5,7 @@ export default function ProductCard() {
         <span>Best seller</span>
       </div> */}
       {/* //{" "} */}
-      <a href="product/name-a-star-valentine-combo.html">
+      <a href="/product/details">
         <div class="pro-box">
           <img
             src="assets/uploads/product/1704864930_2628.jpg"

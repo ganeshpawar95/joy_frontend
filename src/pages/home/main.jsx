@@ -7,7 +7,6 @@ import Customer_reviews from "./Customer_reviews";
 export default function HomePage() {
   return (
     <div>
-      <HeaderComponents />
       <div class="banner-sec">
         <a href="https://joyfulsurprises.in/all-products">
           <img src="assets/web/img/Banner-Final-Desktop.jpg" />
@@ -18,7 +17,6 @@ export default function HomePage() {
       <About_star_registration />
       <All_our_offers_Include />
       <Customer_reviews />
-      <FooterComponents />
     </div>
   );
 }

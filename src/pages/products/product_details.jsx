@@ -10,7 +10,6 @@ import React from "react";
 export default function ProductsDetails() {
   return (
     <React.Fragment>
-      <HeaderComponents />
       <div class="inner-banner">
         <div class="container">
           <p>Product View</p>
@@ -26,8 +25,6 @@ export default function ProductsDetails() {
         </div>
         <ProductDetailsReviewSection />
       </div>
-
-      <FooterComponents />
     </React.Fragment>
   );
 }

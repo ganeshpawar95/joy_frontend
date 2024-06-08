@@ -1,6 +1,9 @@
 import React from "react";
+import ProductDetailsFeatures from "./ProductDetailsFeatures";
+import { useNavigate } from "react-router-dom";
 
 const ProductDetailsRightCard = () => {
+  var nav = useNavigate();
   return (
     <div className="col-md-6">
       <div className="pro-desc">
@@ -43,7 +46,6 @@ const ProductDetailsRightCard = () => {
             <label
               className="labels"
               style={{
-                marginBottom: "-10px",
                 marginTop: "20px",
                 fontSize: "18px",
               }}
@@ -61,7 +63,7 @@ const ProductDetailsRightCard = () => {
                   <img
                     className="productimg colors"
                     style={{ border: "1px solid #0c0b0b80" }}
-                    src="../assets/uploads/variants/1704280698_1480.png"
+                    src="/assets/uploads/variants/1704280698_1480.png"
                     alt="Mixed Roses Romantic Bunch"
                   />
                   <figcaption style={{ textAlign: "center" }}>
@@ -74,7 +76,7 @@ const ProductDetailsRightCard = () => {
                   <img
                     className="productimg colors"
                     style={{ border: "1px solid #0c0b0b80" }}
-                    src="../assets/uploads/variants/1704280711_8180.png"
+                    src="/assets/uploads/variants/1704280711_8180.png"
                     alt="Mixed Roses Romantic Bunch"
                   />
                   <figcaption style={{ textAlign: "center" }}>
@@ -86,6 +88,21 @@ const ProductDetailsRightCard = () => {
             <div className="medium-3 columns">&nbsp;</div>
           </div>
         </div>
+
+        <ProductDetailsFeatures
+          label={"Select Frame Color"}
+          data={[{ name: "Black" }, { name: "White" }]}
+        />
+        <ProductDetailsFeatures
+          label={"Select Frame Size(INCH)"}
+          data={[{ name: "8X12" }, { name: "10X14" }]}
+        />
+
+        <ProductDetailsFeatures
+          label={"Select Thickness"}
+          data={[{ name: "3mm" }, { name: "4mm", is_selected: true }]}
+        />
+
         <h3 className="product-sub-title">Enter Details</h3>
         <form method="post" id="myform" encType="multipart/form-data">
           <div class="small-form">
@@ -139,6 +156,20 @@ const ProductDetailsRightCard = () => {
               required=""
             />
           </div>
+          <input
+            type="submit"
+            id="add_to_cart"
+            class="btn shop e-b"
+            value="Add to cart"
+          />
+          {/* <input
+            type="button"
+            // id="buy_now"
+            onClick={() => nav("/checkout")}
+            class="btn pay e-b"
+            value="Buy now"
+          /> */}
+          <button onClick={() => nav("/login")}> Buy now</button>
         </form>
         <div
           className="product-info"

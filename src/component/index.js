@@ -9,6 +9,11 @@ import ProductsDetailsCarousel from "./ProductDetailsCarousel";
 import ProductDetailsRightCard from "./Product_detailsCard";
 
 import ProductDetailsReviewSection from "./ProductDetailsReviewSection";
+import BasicLayout from "./BasicLayout";
+
+import NoFoundComponent from "./NoFoundComponent";
+
+import ProductDetailsFeatures from "./ProductDetailsFeatures";
 export {
   HeaderComponents,
   BuyStartCard,
@@ -18,4 +23,7 @@ export {
   ProductsDetailsCarousel,
   ProductDetailsRightCard,
   ProductDetailsReviewSection,
+  BasicLayout,
+  NoFoundComponent,
+  ProductDetailsFeatures,
 };
